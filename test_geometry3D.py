@@ -549,6 +549,8 @@ class AnalyseData:
 
 
 def main():
+
+    # Just to plot the geometry
     g = Geometry()
     # g.pixel_mask = np.random.randint(0,2, 2048)
     g.plot()
@@ -557,8 +559,9 @@ def main():
 
 
 
+    # # To convert range of desired pe to Lightsource values
+    # g = Geometry()
     # pe = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 23, 24, 26, 28, 30, 32, 35, 37, 40, 43, 46, 49, 53, 57, 61, 65, 70, 75, 81, 86, 93, 100, 107, 114, 123, 132, 141, 151, 162, 174, 187, 200, 215, 231, 247, 265, 284, 305, 327, 351, 376, 403, 432, 464, 497, 533, 572, 613, 657, 705, 756, 811, 869, 932, 1000]
-    #
     # pe = [   1,    2,    3,    4,    5,    6,    7,    8,    9,   10,   12, 14,   16,   19,   22,   25,   29,   33,   39,   44,   51,   59, 68,   79,   91,  104,  120,  138,  159,  184,  212,  244,  281, 323,  372,  429,  494,  568,  655,  754,  868, 1000]
     #
     # ph = []
@@ -572,6 +575,7 @@ def main():
     # print(ph)
 
 
+    # # To calculate either the charge resolution of the trigger efficiency, including setting any pixel masks
     # a = AnalyseData()
     # a.pixel_mask[:] = 0
     # onpix = [1146,1147,1194,1196,1243,1244,1245,1292,1293]
