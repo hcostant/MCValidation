@@ -24,8 +24,8 @@ def focal_plane(x):
     p6 = -6.25e-12
     p8 = -3.90625e-16
     p10 = -2.734375e-20
-    # return 0
-    return (p2 *x**2 + p4 *x**4 + p6 *x**6 + p8 *x **8 +  p10 *x**10)/100.0
+    return 0
+    # return (p2 *x**2 + p4 *x**4 + p6 *x**6 + p8 *x **8 +  p10 *x**10)/100.0
 
 
 def cart2sph(x,y,z):
